@@ -1,0 +1,14 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db" // SQLite database file
+}
+
+model WaitlistEntry {
+  id        Int      @id @default(autoincrement()) // Primary key with auto-increment
+  email     String   @unique // Ensure the email is unique in the waitlist
+  createdAt DateTime @default(now()) // Automatically set to current time when created
+}
