@@ -8,7 +8,10 @@ datasource db {
 }
 
 model WaitlistEntry {
-  id        Int      @id @default(autoincrement()) // Primary key with auto-increment
-  email     String   @unique // Ensure the email is unique in the waitlist
-  createdAt DateTime @default(now()) // Automatically set to current time when created
+  id        Int      @id @default(autoincrement())
+  email     String
+  createdAt DateTime @default(now())
+  // Add the status field if it's missing
+  status    String? // Optional field
 }
+

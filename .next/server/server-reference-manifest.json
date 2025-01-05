@@ -1,5 +1,1 @@
-{
-  "node": {},
-  "edge": {},
-  "encryptionKey": "ktsbZw2uhEj6chOfV1okOgbxBPlfPvw0olR6j9jBaUw="
-}
+{"node":{"005575e1808fec766462f0b8e06e608270266c34cf":{"workers":{"app/admin/waitlist/page":{"moduleId":"4358","async":false}},"layer":{"app/admin/waitlist/page":"rsc"}}},"edge":{},"encryptionKey":"//fuejkjVkFR+ErC5IMAnC0n/zmfJBDbgMb6mMPi2oU="}

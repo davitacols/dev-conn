@@ -30,4 +30,3 @@ export const Testimonial: React.FC<TestimonialProps> = ({ quote, author, role })
     </motion.div>
   )
 }
-
